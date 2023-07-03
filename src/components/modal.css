@@ -1,0 +1,173 @@
+body {
+  background-color: rgb(200, 204, 200);
+}
+.container {
+  display: flex;
+  width: 592px;
+  height: 492px;
+  line-height: 1;
+  position: relative;
+}
+
+.btn {
+  background-color: #5D71DD;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: Noto Sans;
+  line-height: 20px;
+  border: 0;
+  border-radius: 10%;
+  }
+
+.btn:hover {
+  color: #f5ebeb;
+}
+
+
+
+.btn__modal {
+  display: block;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+.btn__modal-passive {
+  opacity: 0;
+  visibility: hidden;
+  
+}
+
+.modal__close {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 15px 15px 0 0;
+  cursor: pointer;
+  border: none;
+}
+
+.modal__close:active {
+  transform: scale(0.9);
+}
+
+.costomer__btn {
+  display: block;
+  width: 400px;
+  height: 30px;
+  border-radius: 5%;
+}
+
+
+.container-modal {
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  transition: opacity .2s ease;
+}
+
+.container-modal.animation {
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.modal {
+  
+  display: block;
+  width: 512px;
+  margin: 0 auto;
+}
+
+
+
+.modal__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.modal__head h2 {
+  color: #5D71DD;
+  font-size: 18px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.modal__head span {
+  color: #808080;
+  font-size: 12px;
+  font-family: Noto Sans;
+  line-height: 20px;
+}
+
+.modal__content {
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+  background: #FFF;
+  padding: 14px 0px 14px 40px;
+  color: #808080;
+font-size: 14px;
+font-family: Noto Sans;
+}
+
+.modal__content span {
+  color: #808080;
+font-size: 14px;
+font-family: Noto Sans;
+font-weight: 600;
+}
+
+
+.modal__costomer {
+  margin-top: 20px;
+}
+.costomer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.costomer p {
+  color: #808080;
+  font-size: 14px;
+  font-family: Noto Sans;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.costomer__input {
+  margin-bottom: 14px;
+  width: 240px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #EFEFEF;
+  border: none;
+}
+
+.costomer__input {
+  padding-left: 14px
+}
+
+.costomer__btn {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 432px;
+  height: 45px; 
+  border-radius: 4px;
+  background: #5D71DD;  
+}
+
+.costomer__btn:active {
+  transform: scale(0.98);
+}
